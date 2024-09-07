@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-900">My Portfolio</div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#hero" class="text-gray-800 hover:text-blue-600">Home</a></li>
+                    <li><a href="#about" class="text-gray-800 hover:text-blue-600">About</a></li>
+                    <li><a href="#skills" class="text-gray-800 hover:text-blue-600">Skills</a></li>
+                    <li><a href="#projects" class="text-gray-800 hover:text-blue-600">Projects</a></li>
+                    <li><a href="#experience" class="text-gray-800 hover:text-blue-600">Experience</a></li>
+                    <li><a href="#contact" class="text-gray-800 hover:text-blue-600">Contact</a></li>
+                </ul>
+            </nav>                   
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+<!-- Hero Section (Name at the Start of the Page with Animation) -->
+    <section id="hero" class="h-screen flex items-center justify-center bg-blue-600 text-white">
+        <div class="text-center animate-fade-in">
+            <h1 class="text-6xl font-bold mb-4 animate-slide-in">Akash Yadagouda</h1>
+            <p class="text-2xl animate-fade-in-up">Software Development Engineer | 3 Years of Experience in Java Development</p>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8">About Me</h2>
+            <p class="text-lg mb-6">I'm a passionate software engineer with 3 years of experience specializing in Java development. I've worked on various projects, building scalable and efficient backend systems for different industries.</p>
+            <p class="text-lg">My goal is to keep learning, growing, and contributing to impactful projects.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-gray-200 py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="p-4 bg-white rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-2">Java</h3>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-2">Spring Boot</h3>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-2">Microservices</h3>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-2">SQL</h3>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-2">REST APIs</h3>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-2">Docker</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+<section id="experience" class="py-20 bg-gray-100">
+    <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-8">Work Experience</h2>
+        <div class="space-y-8">
+            <!-- ONETRUST | Software Development Engineer | Backend -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                <h3 class="text-xl font-semibold mb-2">ONETRUST | Software Development Engineer | Backend</h3>
+                <p class="text-gray-600">Aug 2021 - Present | Bangalore, India</p>
+                <ul class="list-disc list-inside mt-4 text-gray-800">
+                    <li>Implemented end-to-end REST APIs in Spring Boot for features such as localization and data exports in a microservices architecture, leveraging the Apache Kafka distributed event streaming platform.</li>
+                    <li>Achieved a 30% reduction in resource usage for SQL queries through proper indexing, query optimization, and data batching.</li>
+                    <li>Developed and deployed a robust backend for the Audit Logging System within the Cookie Compliance product, capturing and processing over 30 user events seamlessly.</li>
+                    <li>Took ownership of multiple Kafka topics in the production environment, effectively resolving challenges related to consumer topic lag and maximizing polling interval times for asynchronous APIs.</li>
+                    <li>Developed a generic Jenkins job that scales any SQL DB on Azure Cluster and executes the Index rebuild SQL scripts, reducing the SRE team’s manual effort.</li>
+                    <li>Led the creation of a Generic Command API for OneTrust’s Data-Discovery product, enabling automated revalidation scans across diverse data sources and seamlessly integrated with over 10 microservices.</li>
+                    <li>Designed and implemented Custom Error Codes for the OneTrust Consent Management Product, streamlining error handling and enhancing product stability.</li>
+                </ul>
+            </div>
+            
+            <!-- ONETRUST | Software Development Engineer | Intern -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                <h3 class="text-xl font-semibold mb-2">ONETRUST | Software Development Engineer | Intern</h3>
+                <p class="text-gray-600">Mar 2021 – Jun 2021 | Bangalore, India</p>
+                <ul class="list-disc list-inside mt-4 text-gray-800">
+                    <li>Worked with the OneTrust Mobile team to resolve bugs in the existing REST APIs in Spring Boot.</li>
+                    <li>Automated the feature with BDD flow using Java Selenium and Appium.</li>
+                </ul>
+            </div>
+            
+            <!-- IIT Delhi | Research Intern -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                <h3 class="text-xl font-semibold mb-2">IIT Delhi | Research Intern</h3>
+                <p class="text-gray-600">Jun 2019 – Jul 2019 | Bangalore, India</p>
+                <ul class="list-disc list-inside mt-4 text-gray-800">
+                    <li>Worked on a project involving Endoscopy Activity Recognition using Machine Learning, which helped identify activity inside the Endo-trainer.</li>
+                    <li>Used TensorFlow framework and Python Scikit-learn library to build the machine learning model.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="py-20 bg-white">
+    <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-8">Projects</h2>
+        <div class="space-y-8">
+            <!-- Consensus Algorithm for Blockchain-Based Cloud Data Provenance -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md text-left">
+                <h3 class="text-xl font-semibold mb-2">Consensus Algorithm for Blockchain-Based Cloud Data Provenance</h3>
+                <p class="text-gray-600">Jul 2020 – Jan 2021 | Hubli, India</p>
+                <ul class="list-disc list-inside mt-4 text-gray-800">
+                    <li>Worked with Abhishek Patil and Prof. D. G. Narayan to build a cloud-based provenance framework.</li>
+                    <li>Implemented the Proof of Stake consensus algorithm in the Ethereum framework using Go language.</li>
+                    <li>Used the Proof of Stake algorithm and IPFS cloud to provenance the user metadata in the cloud.</li>
+                </ul>
+            </div>
+            
+            <!-- Online Food Ordering System -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md text-left">
+                <h3 class="text-xl font-semibold mb-2">Online Food Ordering System</h3>
+                <p class="text-gray-600">Jan 2020 – Apr 2020 | Hubli, India</p>
+                <ul class="list-disc list-inside mt-4 text-gray-800">
+                    <li>Used MySQL database and Java UI to develop the system.</li>
+                    <li><a href="https://github.com/YourRepo/OnlineFoodDeliverySystemUsingJava" class="text-blue-600 hover:underline" target="_blank">GitHub Repository: OnlineFoodDeliverySystemUsingJava</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-blue-600 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+            <p class="text-lg mb-8">Feel free to reach out if you have any questions or if you want to collaborate on a project.</p>
+            <form action="#" method="POST" class="max-w-md mx-auto">
+                <div class="mb-4">
+                    <input type="text" name="name" placeholder="Your Name" class="w-full px-4 py-2 rounded-lg text-gray-800">
+                </div>
+                <div class="mb-4">
+                    <input type="email" name="email" placeholder="Your Email" class="w-full px-4 py-2 rounded-lg text-gray-800">
+                </div>
+                <div class="mb-4">
+                    <textarea name="message" rows="4" placeholder="Your Message" class="w-full px-4 py-2 rounded-lg text-gray-800"></textarea>
+                </div>
+                <button type="submit" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <style>
+        /* Fade In Animation */
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+        
+        @keyframes slideIn {
+          from {
+            transform: translateY(-100%);
+            opacity: 0;
+          }
+          to {
+            transform: translateY(0);
+            opacity: 1;
+          }
+        }
+        
+        @keyframes fadeInUp {
+          from {
+            transform: translateY(20px);
+            opacity: 0;
+          }
+          to {
+            transform: translateY(0);
+            opacity: 1;
+          }
+        }
+        
+        /* TailwindCSS Animations */
+        .animate-fade-in {
+          animation: fadeIn 2s ease-in-out forwards;
+        }
+        
+        .animate-slide-in {
+          animation: slideIn 1.5s ease-in-out forwards;
+        }
+        
+        .animate-fade-in-up {
+          animation: fadeInUp 2s ease-in-out 1s forwards;
+        }
+        </style>
+        

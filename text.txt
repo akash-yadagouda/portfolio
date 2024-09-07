@@ -1,0 +1,39 @@
+1 ONETRUST |Software Development Engineer|Backend Aug 2021 - Present | Bangalore, India
+						
+    • Implemented end-to-end RESTAPIs inSpringBoot for features suchas localization and data exports in a microservices architecture, leveraging the Apache Kafka distributed event streaming platform.
+                            
+    • Achieved a 30% reduction in resource usage for SQL queries through proper indexing, query optimization, and data batching.
+                            
+    • Developed and deployed a robust Backend for the Audit logging System within the Cookie Compliance product, capturing and processing over 30 user events seamlessly.
+                            
+    • Took ownership of multiple Kafka topics in the production environment, effectively resolving challenges related to consumer topic lag and maximizing polling interval times for asynchronous APIs.
+                            
+    • Developed the generic Jenkins job,whichscalesanySQLDBonAzureCluster and executes the Index rebuild SQL scripts, which helped the SRE team’s manual effort.
+                            
+    • LedthecreationofaGenericCommandAPIforOneTrust’sData-Discovery product, enabling automated revalidation scans across diverse data sources. Seamlessly integrated with over 10 microservices.
+                            
+    • DesignedandimplementedCustomErrorCodesfortheOnetrustConsent Management Product, streamlining error handling and enhancing product stability.
+						
+
+2. ONETRUST | Software Development Engineer|Intern Mar 2021 – Jun 2021 | Bangalore, India						 								
+    Worked with the Onetrust Mobile team to resolve the bugs in the existing REST APIs in Spring Boot						 								
+    Automated the feature with BDD flow using java selenium and Appium. 
+
+
+
+3.IITDELHI |Research Intern								
+Jun 2019 – Jul 2019 | Bangalore, India							 								
+    Workedon a project Endoscopy Activity Recognition using Machine learning which helped to identify activity inside the Endo-trainer.							 								
+    UsedTensor Flowframework and python Scikit-learn library to build the machine learning model.
+
+
+
+
+
+PROJECTS
+1. CONSENSUS ALGORITHM FOR BLOCKCHAIN-BASED CLOUD DATAPROVENANCE Jul2020–Jan2021|Hubli,India
+Worked with Abhishek Patil and Prof. D. G. Narayan to build a cloud based provenance framework.
+• Implemented the Proof of Stake consensus algorithm in the Ethereum framework in Go language.
+• UsedtheProofofStakealgorithmandIPFScloudtoprovenancetheuser metadata in the cloud.
+2. ONLINEFOODORDERINGSYSTEM Jan2020–Apr2020|Hubli,India • UsedMySQLdatabaseandJavaUItodevelopthesystem.
+• GitHubRepository:OnlineFoodDeliverySystemUsingJava
