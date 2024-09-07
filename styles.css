@@ -90,3 +90,31 @@ section.visible {
   transform: scale(1.03);
 }
 
+/* Hero Section Styles */
+#home {
+  background-color: #1d4ed8; /* Blue background color */
+  color: #ffffff; /* Ensure text color contrasts well with the blue background */
+}
+
+#home h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff; /* White text color for better visibility on blue background */
+}
+
+#home p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #e5e7eb; /* Light gray text color for readability */
+}
+
+#home a {
+  transition: color 0.3s ease;
+  color: #dbeafe; /* Light blue color for links */
+}
+
+#home a:hover {
+  color: #bfdbfe; /* Slightly darker blue for hover effect */
+}
+
+
