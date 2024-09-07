@@ -1,0 +1,120 @@
+/* Smooth scrolling for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Initial state of all sections: invisible and slightly moved down */
+section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+/* Make section visible when active (add .visible class via JavaScript) */
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Highlight the active navigation link */
+.nav-link.active {
+  color: #3b82f6; /* Tailwind blue */
+  font-weight: bold;
+}
+
+/* Smooth zoom effect on skill items when hovered */
+.skill-item {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Zoom effect on hover */
+.skill-item:hover {
+  transform: scale(1.05); /* Slight zoom-in effect */
+}
+
+/* Timeline container */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #3b82f6; /* Tailwind blue */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  position: relative;
+  margin: 20px 0;
+  padding-left: 50px;
+  width: 50%;
+}
+
+.timeline-item:nth-child(odd) {
+  left: 0;
+}
+
+.timeline-item:nth-child(even) {
+  left: 50%;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border: 4px solid #3b82f6;
+  border-radius: 50%;
+  left: -50px;
+}
+
+.timeline-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.timeline-item:hover .timeline-content {
+  transform: scale(1.03);
+}
+
+/* Hero Section Styles */
+#home {
+  background-color: #1d4ed8; /* Blue background color */
+  color: #ffffff; /* Ensure text color contrasts well with the blue background */
+}
+
+#home h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff; /* White text color for better visibility on blue background */
+}
+
+#home p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #e5e7eb; /* Light gray text color for readability */
+}
+
+#home a {
+  transition: color 0.3s ease;
+  color: #dbeafe; /* Light blue color for links */
+}
+
+#home a:hover {
+  color: #bfdbfe; /* Slightly darker blue for hover effect */
+}
+
+
