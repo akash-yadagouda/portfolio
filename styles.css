@@ -117,4 +117,34 @@ section.visible {
   color: #bfdbfe; /* Slightly darker blue for hover effect */
 }
 
+/* Style for the header */
+header {
+  position: fixed; /* Keeps the header fixed at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff; /* Background color for the header */
+  z-index: 1000; /* Ensures it stays on top of other content */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
+}
+
+.header-content {
+  padding: 15px;
+  display: flex;
+  justify-content: flex-start; /* Aligns your name to the left */
+}
+
+.name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 20px;
+  color: #333; /* Text color */
+}
+
+/* Adding padding to the main content so it doesn't overlap with the fixed header */
+main {
+  padding-top: 80px; /* Adjust this based on the height of your header */
+}
+
+
 
