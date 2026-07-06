@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Akash Yadagouda - Portfolio",
-  description: "Software Developer Portfolio - Building innovative solutions with modern technologies",
+  title: "Akash Yadagouda - Senior Software Engineer",
+  description: "Senior Software Engineer specializing in Java backend, distributed systems, and microservices architecture. 4+ years of experience building scalable enterprise applications.",
 };
 
 export default function RootLayout({
@@ -25,9 +25,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable}`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
