@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Akash Yadagouda - Senior Software Engineer",
-  description: "Senior Software Engineer specializing in Java backend, distributed systems, and microservices architecture. 4+ years of experience building scalable enterprise applications.",
+  title: "Akash Yadagouda - Backend Engineer",
+  description: "Backend engineer with 5+ years building scalable microservices in Java and Spring Boot. Deep into SQL Server optimization, Apache Kafka, and distributed systems.",
 };
 
 export default function RootLayout({
